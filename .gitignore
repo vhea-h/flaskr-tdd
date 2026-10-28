@@ -1,0 +1,26 @@
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local SQLite databases (Render uses Postgres instead)
+*.db
+*.sqlite3
+
+# Secrets / environment variables (e.g. DATABASE_URL)
+.env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
