@@ -6,7 +6,7 @@ Flask-SQLAlchemy
 gunicorn
 
 # Postgres adapter for the Render database (prebuilt wheels, no compiler needed)
-psycopg2-binary
+psycopg[binary]
 
 # Testing, linting and formatting
 pytest
