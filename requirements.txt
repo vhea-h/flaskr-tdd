@@ -1,0 +1,14 @@
+# Web framework + database ORM
+Flask
+Flask-SQLAlchemy
+
+# Production WSGI server (Render start command: gunicorn project.app:app)
+gunicorn
+
+# Postgres adapter for the Render database (prebuilt wheels, no compiler needed)
+psycopg2-binary
+
+# Testing, linting and formatting
+pytest
+flake8
+black
